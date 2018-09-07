@@ -9,3 +9,80 @@
 		</block>
 	</swiper>
 </view>
+
+<view class="content">
+	<view class="navbg">
+		<view id="0" class="{{currentTab == 0 ? 'select' : 'normal'}}" bind:tap="switchNav">火车票</view>
+		<view id="1" class="{{currentTab == 1 ? 'select' : 'normal'}}" bind:tap="switchNav">飞机票</view>
+	</view>
+
+	<view class="formbg">
+		<form bind:submit="formSubmit">
+			<view class="station">
+				<view>
+					<input name='startStation' value="武汉" />
+				</view>
+				<view>
+					<image src="../../images/icon/hcp/xz.jpg" style="width:44px;height:45px;" />
+				</view>
+				<view>
+					<input name='endStation' value="郑州" />
+				</view>
+			</view>
+			<view class="hr"></view>
+			<view class="station">
+				<view>
+					<input name='date' value="9月8日" />
+				</view>
+				<view></view>
+				<view>
+					<text style="color:#5495e6;">
+						<input name='week' value="星期六" />
+					</text>
+				</view>
+			</view>
+			<view class="hr"></view>
+			<view class="type">
+				<view>高铁动车<switch name='gt' type="switch" /></view>
+				<view>学生票<switch name='xs' type="switch" /></view>
+			</view>
+			<button class="btn" formType='submit'>查询</button>
+			<view class="record">
+				<text>重庆→上海</text>
+				<text>乌鲁木齐→大连</text>
+				<text>清除历史</text>
+			</view>
+		</form>
+	</view>
+
+	<view class="icon">
+		<view class="item">
+			<view>
+				<image src="../../images/icon/hcp/jsqp.jpg"/>
+			</view>
+			<view class="menu">极速抢票</view>
+		</view>
+		<view class="item">
+			<view>
+				<image src="../../images/icon/hcp/zxxz.jpg"/>
+			</view>
+			<view class="menu">在线选座</view>
+		</view>
+		<view class="item">
+			<view>
+				<image src="../../images/icon/hcp/qshh.jpg"/>
+			</view>
+			<view class="menu">抢手好货</view>
+		</view>
+		<view class="item">
+			<view>
+				<image src="../../images/icon/hcp/czjd.jpg"/>
+			</view>
+			<view class="menu">超值酒店</view>
+		</view>
+	</view>
+
+
+
+</view>
+
