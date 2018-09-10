@@ -3,7 +3,8 @@ Page({
   data: {
     date: '',
     trainList: [],
-    scrHeight: 600
+    scrHeight: 600,
+    currentTab: '1'
   },
 
   onLoad: function (op) {
@@ -16,6 +17,12 @@ Page({
     this.setData({
       date: date
     });
-  }
+  },
 
+  switchNav: function (e) {
+    let id = e.currentTarget.id;
+    this.setData({
+      currentTab: id
+    });
+  }
 })

@@ -116,3 +116,30 @@
 .yes {
 	margin-right: 10px;
 }
+
+.bottomNav {
+	display: flex;
+	flex-direction: row;
+	background-color: #505963;
+	height: 45px;
+	line-height: 45px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.bottomNav view {
+	margin: 0 auto;
+}
+
+.selected, .common {
+	font-size: 13px;
+}
+
+.selected {
+	color: #5459e6;
+}
+
+.common {
+	color: #fff;
+}
