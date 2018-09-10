@@ -1,1 +1,13 @@
 /* pages/trainList/trainList.wxss */
+.date {
+	height: 40px;
+	background-color: #5495e6;
+	display: flex;
+	flex-direction: row;
+}
+
+.date view {
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 10px;
+}

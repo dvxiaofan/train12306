@@ -1,2 +1,6 @@
 <!--pages/trainList/trainList.wxml-->
-<text>pages/trainList/trainList.wxml</text>
+<view class="date">
+	<view>前一天</view>
+	<view>{{date}}</view>
+	<view>后一天</view>
+</view>
