@@ -1,7 +1,9 @@
 // pages/trainList/trainList.js
 Page({
   data: {
-    date: ''
+    date: '',
+    trainList: [],
+    scrHeight: 600
   },
 
   onLoad: function (op) {
@@ -14,6 +16,6 @@ Page({
     this.setData({
       date: date
     });
-  },
+  }
 
 })

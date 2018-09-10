@@ -4,3 +4,32 @@
 	<view>{{date}}</view>
 	<view>后一天</view>
 </view>
+
+<view class="content" style="height:{{scrHeight}}px;">
+	<view class="bg">
+		<view class="item">
+			<view class="wrApper left">
+				<view class="normal">武汉</view>
+				<view class="blue">郑州</view>
+			</view>
+			<view class="wrApper center">
+				<view class="normal">DD28</view>
+				<view class="line"></view>
+				<view class="small">7小时45分钟</view>
+			</view>
+			<view class="wrApper right">
+				<view class="normal">06:34</view>
+				<view class="normal">14：53</view>
+			</view>
+			<view class="wrApper right">
+				<view class="blue">309.5 起</view>
+				<view class="buy">可抢票</view>
+			</view>
+		</view>
+		<view class="hr"></view>
+		<view class="seat">
+			<view class="yes">一等座：19张<text>（抢）</text></view>
+			<view class="no">二等座：0张<text>（抢）</text></view>
+		</view>
+	</view>
+</view>
