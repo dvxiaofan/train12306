@@ -4,7 +4,8 @@
     "pages/airplane/airplane",
     "pages/bus/bus",
     "pages/mycenter/mycenter",
-    "pages/trainList/trainList"
+    "pages/trainList/trainList",
+    "pages/grabTicket/grabTicket"
   ],
   "window":{
     "backgroundTextStyle":"light",

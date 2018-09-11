@@ -54,7 +54,7 @@
 
 	<view class="item">
 		<view class="icon"><image src="../../images/icon/grzx/yqhy.jpg" /></view>
-		<view class="itemName">
+		<view class="itemName" bind:tap="grabTicket">
 			<view>邀请好友</view>
 		</view>
 		<view class="right"><text class="opr">一起来抢票 ></text></view>

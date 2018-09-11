@@ -13,6 +13,12 @@ Page({
       userInfo: uInfo,
       avatarUrl: uInfo.avatarUrl
     })
+  },
+
+  grabTicket: function() {
+    wx.navigateTo({
+      url: '../grabTicket/grabTicket',
+    })
   }
 
 })
