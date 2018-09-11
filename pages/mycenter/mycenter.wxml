@@ -1,2 +1,10 @@
 <!--pages/mycenter/mycenter.wxml-->
-<text>pages/mycenter/mycenter.wxml</text>
+<view class="amountBg">
+	<view class="img"><image src="{{avatarUrl}}" style="width:49px;height:47px;" /></view>
+	<view class="account">
+		<view>{{userInfo.nickName}}</view>
+		<view>帐号管理</view>
+	</view>
+	<view class="nav">></view>
+</view>
+<button class='getUserInfo' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">登录</button>
